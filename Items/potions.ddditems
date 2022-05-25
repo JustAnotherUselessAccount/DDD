@@ -1,0 +1,13 @@
+id healing_potion
+name Healing Potion
+desc Tastes like chicken.
+category potion
+actions drink_potion heal_player 10,
+DL 1
+
+id birch_juice
+name Birch Juice
+desc Suddenly, tastes like birch juice.
+category potion
+actions drink_potion just_do_nothing,
+DL 1

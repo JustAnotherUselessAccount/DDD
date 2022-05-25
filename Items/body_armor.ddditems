@@ -1,0 +1,86 @@
+id clothes
+name Clothes
+slot chestplate
+category body_armor
+DV 0
+DV_range 0 1
+PV 0
+PV_range 0 0
+DL 1
+
+id robe
+name Robe
+slot chestplate
+category body_armor
+DV 0
+DV_range -1 1
+PV 1
+PV_range 0 0
+DL 1
+
+id light_furs
+name Light Furs
+slot chestplate
+category body_armor
+DV 0
+DV_range -1 1
+PV 1
+PV_range 0 1
+DL 1
+
+id leather_armor
+name Leather Armor
+slot chestplate
+category body_armor
+DV 0
+DV_range 0 1
+PV 1
+PV_range 0 1
+DL 1
+
+id studded_leather_armor
+name Studded Leather Armor
+slot chestplate
+category body_armor
+DV -1
+DV_range 0 1
+PV 2
+PV_range 0 1
+DL 2
+
+id light_ring_mail
+name Light Ring Mail
+slot chestplate
+category body_armor
+DV -1
+DV_range 0 1
+PV 3
+PV_range -1 1
+base_accuracy -1
+base_range 0 1
+DL 2
+
+id ring_mail
+name Ring Mail
+slot chestplate
+category body_armor
+DV -1
+DV_range -1 1
+PV 3
+PV_range 0 1
+base_accuracy -1
+base_range 0 1
+DL 3
+
+id scale_mail
+name Scale Mail
+slot chestplate
+category body_armor
+DV -2
+DV_range -1 1
+PV 4
+PV_range 0 1
+base_accuracy -2
+base_range 0 1
+DL 3
+

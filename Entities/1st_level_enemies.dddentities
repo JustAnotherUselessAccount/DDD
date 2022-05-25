@@ -1,0 +1,21 @@
+id goblin_knifer
+symbol g
+color 033[01;38;05;28m
+name Goblin
+desc What a nasty creature!
+base_dmg 1 4 0 0
+max_hp 5
+DV 11
+PV 0
+DL 1
+
+id weak_orc
+symbol o
+color 033[01;38;05;125m
+name Weak Orc
+desc I should do not forget to add a pun here.
+base_dmg 1 6 -1 0
+max_hp 8
+DV 8
+PV 0
+DL 1

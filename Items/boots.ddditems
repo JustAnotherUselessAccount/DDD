@@ -1,0 +1,39 @@
+id light_boots
+name Light Boots
+slot boots
+category boots
+DV 0
+DV_range 0 0
+PV 0
+PV_range 0 0
+DL 1
+
+id leather_boots
+name Leather Boots
+slot boots
+category boots
+DV 0
+DV_range 0 1
+PV 0
+PV_range 0 0
+DL 1
+
+id heavy_boots
+name Heavy Boots
+slot boots
+category boots
+DV -1
+DV_range 0 1
+PV 1
+PV_range 0 0
+DL 1
+
+id iron_boots
+name Iron Boots
+slot boots
+category boots
+DV -1
+DV_range 0 1
+PV 1
+PV_range 0 1
+DL 2

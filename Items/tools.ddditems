@@ -1,0 +1,6 @@
+id soul_lantern
+name Soul Lantern
+category tools
+actions smth,
+slot misc
+vision_radius_mod 3

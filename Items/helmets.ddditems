@@ -1,0 +1,70 @@
+id hood
+name Hood
+slot helmet
+category helmet
+DV 0
+DV_range 0 1
+PV 0
+PV_range 0 0
+DL 1
+
+id hat
+name Hat
+slot helmet
+category helmet
+DV 0
+DV_range 0 1
+PV 0
+PV_range 0 0
+DL 1
+
+id leather_helm
+name Leather Helmet
+slot helmet
+category helmet
+DV 1
+DV_range -1 1
+PV 0
+PV_range 0 0
+DL 1
+
+id metal_helm
+name Metal Helmet
+slot helmet
+category helmet
+DV 1
+DV_range -1 1
+PV 0
+PV_range 0 1
+DL 1
+
+id horned_helm
+name Horned Helmet
+slot helmet
+category helmet
+DV 1
+DV_range -1 1
+PV 1
+PV_range -1 0
+DL 2
+
+id orcish_helm
+name Orcish Helmet
+slot helmet
+category helmet
+DV 1
+DV_range -1 1
+PV 1
+PV_range -1 1
+vision_radius_mod 2
+DL 2
+
+id mythril_helm
+name Mythril Helmet
+slot helmet
+category helmet
+DV 2
+DV_range -1 1
+PV 2
+PV_range -1 1
+DL 3

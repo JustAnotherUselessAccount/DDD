@@ -1,0 +1,40 @@
+id wooden_shield
+name Wooden Shield
+slot second_hand
+category shield
+DV 3
+DV_range -2 1
+PV 1
+PV_range -1 0
+DL 1
+
+id small_shield
+name Small Shield
+slot second_hand
+category shield
+DV 2
+DV_range -1 1
+PV 0
+PV_range 0 0
+DL 1
+
+id medium_shield
+name Medium Shield
+slot second_hand
+category shield
+DV 3
+DV_range -1 1
+PV 1
+PV_range -1 0
+DL 1
+
+id large_shield
+name Large Shield
+slot second_hand
+category shield
+DV 5
+DV_range -1 1
+PV 1
+PV_range -1 0
+base_accuracy -1
+DL 1
