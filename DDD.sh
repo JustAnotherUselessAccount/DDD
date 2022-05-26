@@ -1895,6 +1895,22 @@
             [[ $point =~ [\[] ]] && mess="${mess} opened door."
             [[ $point =~ [\<] ]] && mess="${mess} upstairs."
             [[ $point =~ [\>] ]] && mess="${mess} downstairs."
+
+            if [[ ${dungeon_entities[$(($j * $room_width + $i))]} != "" ]]; then
+                local entity=${dungeon_entities[$(($j * $room_width + $i))]}
+                mess="You look at $(get_entity_param ${entity} name)."
+                local hp=$(get_entity_param ${entity} hp)
+                local max_hp=$(get_entity_param ${entity} max_hp)
+                local stage=$(($hp * 4 / $max_hp))
+                case $stage in
+                    4) mess="${mess} It looks like it is at full health.";;
+                    3) mess="${mess} It looks like it is slightly injured.";;
+                    2) mess="${mess} It looks like it is moderately injured.";;
+                    1) mess="${mess} It looks like it is severy damaged.";;
+                    0) mess="${mess} It looks like it is close to death.";;
+                esac
+            fi
+
             [[ $player_x == $i && $player_y == $j ]] && mess="You looked at yourself. It's you, %%player_name%%!"
             [[ ${dungeon_items[$(($j * $room_width + $i))]} != "" ]] && mess="${mess} Also some items are lying here."
 
